@@ -26,10 +26,10 @@ import java.util.ArrayList;
 public class BotController extends MyTelegramLongPollingBot {
 
 
-    @Value("7767609364:AAGT5DPSix8z_DcuwNPzrrC6Yo7JXWwiE78")
+    @Value("bot_token")
     private String botToken;
 
-    @Value("musicYoutubeSpotifyBot")
+    @Value("bot_name")
     private String botName;
 
     @Override
